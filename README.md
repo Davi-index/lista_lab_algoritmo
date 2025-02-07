@@ -16,3 +16,9 @@ diferente. Crie um programa que apresente quatro vezes a frase “Hello, World!�
 cada qual de uma forma distinta, conforme a saída
 </p>
 
+<h4>Questão 2 </h4>
+
+<p>
+Modifique o programa anterior para mostrar quatro frases diferentes, escolhidas por
+você. Mantenha a forma de apresentação.
+</p>
