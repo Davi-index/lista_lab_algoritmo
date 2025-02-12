@@ -19,6 +19,8 @@ cada qual de uma forma distinta, conforme a saída
 <h4>// Questão 2 //</h4>
 
 <p>
-Modifique o programa anterior para mostrar quatro frases diferentes, escolhidas por
-você. Mantenha a forma de apresentação.
+  Todos os números naturais possuem antecessor, que é o número que antecede
+(anterior) um valor específico, e sucessor, que é o número que sucede (posterior) um
+valor específico. Sabendo disso, implemente um programa que solicita ao usuário a
+entrada de um número inteiro e apresenta seu antecessor e sucessor. 
 </p>
