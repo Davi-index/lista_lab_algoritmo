@@ -24,3 +24,11 @@ cada qual de uma forma distinta, conforme a saída
 valor específico. Sabendo disso, implemente um programa que solicita ao usuário a
 entrada de um número inteiro e apresenta seu antecessor e sucessor. 
 </p>
+
+<h4> // Questão 3 // </h4>
+
+<p>
+  Crie um programa que solicita e lê uma temperatura em Celsius, faz a conversão
+para Fahrenheit e exibe tal resultado. Para isto, utilize a seguinte fórmula:
+// 𝐹 = (𝐶 × 1,8) + 32 //
+</p>
