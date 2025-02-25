@@ -32,3 +32,10 @@ entrada de um número inteiro e apresenta seu antecessor e sucessor.
 para Fahrenheit e exibe tal resultado. Para isto, utilize a seguinte fórmula:
 // 𝐹 = (𝐶 × 1,8) + 32 //
 </p>
+
+<h4> // Questão 4 // </h4>
+
+<p>
+  Faça um programa que solicita e lê dois números, calcula e exibe o dobro do
+primeiro e o triplo do segundo
+</p>
