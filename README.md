@@ -39,3 +39,17 @@ para Fahrenheit e exibe tal resultado. Para isto, utilize a seguinte fórmula:
   Faça um programa que solicita e lê dois números, calcula e exibe o dobro do
 primeiro e o triplo do segundo
 </p>
+
+<h4> // Questão 5 // </h4>
+
+<p>
+  Escreva um programa que solicita e lê um número, calcula e exibe o seu cubo.
+</p>
+
+<h4> // Questão 6 // </h4>
+
+<p>
+  Implemente um programa que solicita ao usuário a sua idade e calcula quantos dias
+de vida, aproximadamente, ele já viveu. Para simplificar o seu trabalho, ignore os
+anos bissextos e use somente a idade, mas deixe o usuário ciente de que o resultado 
+</p>
