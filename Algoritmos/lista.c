@@ -49,11 +49,37 @@ int main() {
 }
 
                                                 //GATINHO DANDO JÓIA//
-                                                //GATINHO DANDO JÓIA//
-                                                //GATINHO DANDO JÓIA//
-                                                //GATINHO DANDO JÓIA//
+#include <stdbool.h>
+void gerarTabuada(int numero, int vezes) {
+    for (int i = 1; i <= vezes; i++) {
+printf("%d x %d = %d\n", numero, i, numero * i);
+                                                    }
+                                                }
 
+                                                void calcularTabuada() {
+                                                    int numero, vezes;
+                                                    char resposta;
+                                                    bool continuar = true;
 
+                                                    while (continuar) {
+                                                        printf("Digite o número para gerar a tabuada: ");
+                                                        scanf("%d", &numero);
 
-                                                
-//Davi Alves Maia
+                                                        printf("Digite até qual número deseja calcular a tabuada: ");
+                                                        scanf("%d", &vezes);
+
+                                                        if (vezes < 1) {
+                                                            printf("O valor de vezes deve ser maior ou igual a 1.\n");
+                                                            continue;
+                                                        }
+
+                                                        gerarTabuada(numero, vezes);
+
+                                                        printf("Deseja calcular outra tabuada? (s/n): ");
+                                                        scanf(" %c", &resposta);
+
+                                                        if (resposta != 's' && resposta != 'S') {
+                                                            continuar = false;
+                                                        }
+                                                    }
+                                                }
