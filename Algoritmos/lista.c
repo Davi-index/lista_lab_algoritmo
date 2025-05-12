@@ -58,8 +58,18 @@ int main()
     return 0;
 }
 
-// GATINHO DANDO JÓIA//
+                                                    /* GATINHO DANDO JÓIA */
+
+
+                                                 
+/*
+2º Crie um programa que gere a tabuada de um número n até m vezes, onde m é
+informado pelo usuário. O programa deve perguntar ao usuário se deseja
+calcular outra tabuada ao final.
+*/
 #include <stdbool.h>
+#include <stdio.h>
+// Função para gerar a tabuada
 void gerarTabuada(int numero, int vezes)
 {
     for (int i = 1; i <= vezes; i++)
@@ -72,7 +82,7 @@ void calcularTabuada()
     int numero, vezes;
     char resposta;
     bool continuar = true;
-
+// Loop para continuar perguntando ao usuário se deseja calcular outra tabuada
     while (continuar)
     {
         printf("Digite o número para gerar a tabuada: ");
@@ -80,7 +90,7 @@ void calcularTabuada()
 
         printf("Digite até qual número deseja calcular a tabuada: ");
         scanf("%d", &vezes);
-
+// Validação do número de vezes
         if (vezes < 1)
         {
             printf("O valor de vezes deve ser maior ou igual a 1.\n");
@@ -91,10 +101,53 @@ void calcularTabuada()
 
         printf("Deseja calcular outra tabuada? (s/n): ");
         scanf(" %c", &resposta);
-
+//verifica se o usuário quer continuar
         if (resposta != 's' && resposta != 'S')
         {
             continuar = false;
         }
+    }
+}
+
+
+                                                    /* GATINHO DANDO JÓIA */
+/*
+3º Crie um programa que verifique se um número fornecido pelo usuário é
+primo.
+*/
+#include <stdbool.h>
+#include <stdio.h>
+
+// Função para verificar se um número é primo
+bool ehPrimo(int numero)
+{
+    if (numero <= 1)
+    {
+        return false;
+    }
+    for (int i = 2; i * i <= numero; i++)
+    {
+        if (numero % i == 0)
+        {
+            return false;
+        }
+    }
+    return true;
+}
+
+void verificarNumeroPrimo()
+{
+    int numero;
+
+    printf("Digite um número para verificar se é primo: ");
+    scanf("%d", &numero);
+
+    if (ehPrimo(numero))
+    {
+        printf("O número %d é primo.\n", numero);
+    }
+    else
+    {
+        printf("O número %d não é primo.\n", numero);
     }
 }
