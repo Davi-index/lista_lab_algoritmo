@@ -2,6 +2,8 @@
 #include <string.h>
 
 // Função para exibir o menu principal
+// O nome de usario e senha são definidos como constantes
+// Para facilitar a comparação
 void menu() {
     printf("\n=== Caixa Eletrônico ===\n");
     printf("1. Consultar Saldo\n");
