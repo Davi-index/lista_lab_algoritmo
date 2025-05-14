@@ -8,7 +8,7 @@ void menu() {
     printf("2. Depositar\n");
     printf("3. Sacar\n");
     printf("4. Sair\n");
-    printf("Escolha uma opção: ");
+    printf("Escolha uma opcaoo: ");
 }
 
 int main() {
