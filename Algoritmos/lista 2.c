@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-
 // Função para exibir o menu principal
 // O nome de usario e senha são definidos como constantes
 // Para facilitar a comparação
@@ -84,4 +83,4 @@ int main() {
 
 
                                                 
-//Davi Alves Maia
+//Davi Alves Maia//
