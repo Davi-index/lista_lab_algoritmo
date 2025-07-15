@@ -20,7 +20,6 @@ contador=1;
             contador++;
         }
     }
-
     printf("Soma das matrizes:\n");
     for (i = 0; i < LIN; i++) {
         for (j = 0; j < COL; j++) {
