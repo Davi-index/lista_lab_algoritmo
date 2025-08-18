@@ -1,17 +1,17 @@
 #include <stdio.h>
 
-void maiormenor(int num1, int num2) {
-    if(num1 > num2){
-        printf("o numero %d e maior\n", num1);
-    } else if(num2 > num1){
-        printf("o Numero %d e maior\n", num2);
-    }
-}
-
 int main() {
-    int num1, num2;
-printf("Digite dois numeros: ");
-scanf("%d %d", &num1, &num2);
-    maiormenor(num1, num2);
+    float peso, altura, imc;
+
+    printf("Digite seu peso em kg: ");
+    scanf("%f", &peso);
+
+    printf("Digite sua altura em metros: ");
+    scanf("%f", &altura);
+
+    imc = peso / (altura * altura);
+
+    printf("Seu IMC é: %.2f\n", imc);
+
     return 0;
 }
