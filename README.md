@@ -1,4 +1,4 @@
-# Lista Laboratório de Algoritmos
+# Listas de Exercicios de disciplinas de Programação
 
 <div>
    <p align="left"> Lista de exercicios destinada a disciplina de Labpratório de Algoritmos</p>
