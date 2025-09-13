@@ -2,6 +2,7 @@
 
 # Algoritmos
 # Algoritmos e estrutura de Dado I
+# Algoritmos e estrutura de Dados II
 
 <div>
    <p align="left"> Lista de exercicios destinada a disciplina de Labpratório de Algoritmos</p>
