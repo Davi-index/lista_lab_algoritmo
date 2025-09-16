@@ -1,8 +1,8 @@
 # Listas de Exercicios de disciplinas de Programação
 
-# Algoritmos
-# Algoritmos e Estrutura de Dado I
-# Algoritmos e Estrutura de Dados II
+<div>
+      <p align="center"> Algoritmos </p>
+</div>
 
 <div>
    <p align="left"> Lista de exercicios destinada a disciplina de Labpratório de Algoritmos</p>
