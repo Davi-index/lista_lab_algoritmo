@@ -2,10 +2,10 @@
 
 <div>
       <p align="center"> Algoritmos </p>
+      <p align="center"> Algoritmos e Estrutura de Dados I </p>
 </div>
 
 <div>
-   <p align="left"> Lista de exercicios destinada a disciplina de Labpratório de Algoritmos</p>
     <p align="left">B.T.I</p>
     <p align="left">UFERSA(Universidade Federal Rural do Semi-árido)</p>
 </div>
