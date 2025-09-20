@@ -12,4 +12,4 @@
     <p align="left">UFERSA(Universidade Federal Rural do Semi-árido)</p>
 </div>
 
-<h1>Linguagens Utilizadas // Lista 4<h1>
+<h1>Linguagens Utilizadas<h1>
