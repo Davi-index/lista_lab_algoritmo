@@ -17,7 +17,7 @@ void imprime_crescente(int *v1, int *v2) {
             }
         }
     }
-    // Imprime os valores ordenados
+    // Imprime os valores ordenados dentro do laço for
     for (int i = 0; i < 10; i++) {
         printf("%d", temp[i]);
         if (i < 9) printf(", ");
@@ -32,3 +32,4 @@ int main() {
     return 0;
 
 }
+
