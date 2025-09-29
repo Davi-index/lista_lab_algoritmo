@@ -7,7 +7,7 @@ void imprime_crescente(int *v1, int *v2) {
         temp[i] = *(v1 + i);
         temp[i + 5] = *(v2 + i);
     }
-    // Ordena temp usando bubble sort
+    // Ordena temp usando o tipo bubble sort
     for (int i = 0; i < 9; i++) {
         for (int j = 0; j < 9 - i; j++) {
             if (temp[j] > temp[j + 1]) {
@@ -30,4 +30,5 @@ int main() {
     int vetor2[5] = {7, 4, 1, 10, 6};
     imprime_crescente(vetor1, vetor2);
     return 0;
+
 }
