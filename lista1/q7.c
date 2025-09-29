@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// cria uma função vazia com os valores crescentes
 void imprime_crescente(int *v1, int *v2) {
     int temp[10];
     // Copia os elementos dos dois vetores para temp
@@ -32,4 +32,5 @@ int main() {
     return 0;
 
 }
+
 
