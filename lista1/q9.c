@@ -2,7 +2,9 @@
 // código abaixo para exemplificar a questão
 
 #include <stdio.h>
-
+*pti;
+int i = 10;
+pti = &i;
 
 int main()
 {
