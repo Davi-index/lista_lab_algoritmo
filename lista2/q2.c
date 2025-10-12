@@ -1,12 +1,10 @@
 #include <stdio.h>
-
 typedef struct
 {
     char nome[50];
     float peso;
     int idade;
 } Peixe;
-
 // a) Versão com parâmetro tipo peixe
 void exibePeixe(Peixe p)
 {
@@ -14,7 +12,6 @@ void exibePeixe(Peixe p)
     printf("Peso: %.2f kg\n", p.peso);
     printf("Idade: %d anos\n", p.idade);
 }
-
 // b) Versão com parâmetro tipo ponteiro para peixe
 void exibePeixePtr(const Peixe *p)
 {
@@ -22,7 +19,6 @@ void exibePeixePtr(const Peixe *p)
     printf("Peso: %.2f kg\n", p->peso);
     printf("Idade: %d anos\n", p->idade);
 }
-
 // Exemplo de uso
 int main()
 {
