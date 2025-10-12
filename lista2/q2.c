@@ -22,7 +22,7 @@ void exibePeixePtr(const Peixe *p)
 // Exemplo de uso
 int main()
 {
-    Peixe peixe1 = {"Tilapia", 2.5, 3};
+    Peixe peixe1 = {"tucunare", 2.5, 3};
 
     printf("Usando parâmetro tipo peixe:\n");
     exibePeixe(peixe1);
