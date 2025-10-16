@@ -15,7 +15,7 @@
   <h2>Sobre a Disciplina</h2>
   <p><strong>Disciplina:</strong> Algoritmos e Estrutura de Dados</p>
   <p><strong>Instituição:</strong> Universidade Federal Rural do Semi-árido</p>
-  <p><strong>Curso:</strong> [Seu curso, por exemplo: Bacharelado em Tecnologia da Informação - B.T.I]</p>
+  <p><strong>Curso:</strong> [Bacharelado em Tecnologia da Informação - B.T.I]</p>
 </div>
 
 ---
