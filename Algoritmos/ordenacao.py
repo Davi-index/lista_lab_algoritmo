@@ -1,5 +1,4 @@
 # código baseado e com intuíto de aplicar e explicar os algoritmos de ordenação
-
 # "Quick Sort":
 def quicksort(lista, inicio=0, fim=None):
     if fim is None:
@@ -23,3 +22,4 @@ def partition(lista, inicio, fim):
             i = i + 1
     lista[i], lista[fim] = lista[fim], lista[i]
     return i
+# Finalização do "Quick Sort"
