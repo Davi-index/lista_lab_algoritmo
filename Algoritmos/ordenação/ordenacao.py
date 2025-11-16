@@ -23,3 +23,17 @@ def partition(lista, inicio, fim):
     lista[i], lista[fim] = lista[fim], lista[i]
     return i
 # Finalização do "Quick Sort"
+
+# "Merge Sort":
+def mergesort (lista, inicio=0, fim=None):
+    if fim is None:
+        fim is len(lista):
+        if (fim - inicio > 1):
+            meio = (fim + inicio)//2
+            mergesort(lista, inicio, meio)
+            mergesort(lista, meio, fim)
+            mergesort(lista, inicio, meio, fim)
+def merge(lista, inicio, meio, fim):
+    left = lista[inicio:meio]
+    rigth = lista[inicio:fim]
+    top_left, top_rigth = 0, 0
