@@ -67,11 +67,13 @@ def merge(lista, inicio, meio, fim):
 
 # "Insertion Sort":
 def insertion_sort(lista):
-    n = len(lista)
-    for i in range(1, n):
-        chave = lista[i]
-        j = i - 1
-        while j >= 0 and lista [j] > chave:
-            lista[j+1] = lista [j]
-            j = j - 1
-        lista[j+1] = chave
+    # Insertion Sort: constrói a parte ordenada à esquerda elemento a elemento.
+    n = len(lista)                      # obtém o tamanho da lista
+    for i in range(1, n):               # percorre a lista a partir do segundo elemento
+        chave = lista[i]                # elemento que vamos inserir na parte ordenada
+        j = i - 1                       # índice do último elemento da parte ordenada
+        # enquanto houver elementos na parte ordenada e o elemento for maior que a chave
+        while j >= 0 and lista[j] > chave:
+            lista[j+1] = lista[j]      # desloca o elemento maior uma posição à direita
+            j = j - 1                  # avança para o próximo elemento à esquerda
+        lista[j+1] = chave             # insere a chave na posição correta
