@@ -64,3 +64,5 @@ def merge(lista, inicio, meio, fim):
         else:
             lista[k] = right[top_right]
             top_right = top_right + 1
+
+# "Insertion Sort":
