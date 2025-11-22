@@ -77,3 +77,5 @@ def insertion_sort(lista):
             lista[j+1] = lista[j]      # desloca o elemento maior uma posição à direita
             j = j - 1                  # avança para o próximo elemento à esquerda
         lista[j+1] = chave             # insere a chave na posição correta
+
+# "Selection Sort":
