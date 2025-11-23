@@ -80,12 +80,18 @@ def insertion_sort(lista):
 
 # "Selection Sort":
 def selection_sort(lista):
+    # pega o tamanho da lista
     n = len(lista)
-    for j in range(n-1):
+    # percorre cada posição onde colocaremos o próximo menor elemento
+    for j in range(n - 1):
+        # assume que o menor elemento, por enquanto, está na posição j
         min_index = j
+        # busca o menor elemento no subvetor [j, n-1]
         for i in range(j, n):
+            # se encontrar um elemento menor, atualiza o índice do mínimo
             if lista[i] < lista[min_index]:
                 min_index = i
+        # se o menor encontrado não estiver já na posição j, faz a troca
         if lista[j] > lista[min_index]:
             aux = lista[j]
             lista[j] = lista[min_index]
