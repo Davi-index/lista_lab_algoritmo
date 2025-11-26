@@ -103,6 +103,9 @@ def selection_sort(lista):
             aux = lista[j]
             lista[j] = lista[min_index]
             lista[min_index] = aux
+# 1 + (n-1)*[5 + X] = 1 + 5*(n-1) + X*(n-1)
+# Complexidade de tempo O(nˆ2)
+# Complexidade de espaço O(n)
 # Finalização do "Selection Sort"
 
 # "Bubble Sort":
@@ -116,7 +119,6 @@ def bubble_sort(lista):
                 trocou = True
         if not trocou:
             break
-
-# 1 + (n-1)*[5 + X] = 1 + 5*(n-1) + X*(n-1)
-# Complexidade de tempo O(nˆ2)
+# Complexidade de tempo O(nˆ2) pior caso, O(n) melhor caso
 # Complexidade de espaço O(n)
+#finalização do "Bubble Sort":
