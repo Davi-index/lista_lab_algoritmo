@@ -1,3 +1,4 @@
+
 # código baseado e com intuíto de aplicar e explicar os algoritmos de ordenação
 # "Quick Sort":
 def quicksort(lista, inicio=0, fim=None):
@@ -64,6 +65,7 @@ def merge(lista, inicio, meio, fim):
         else:
             lista[k] = right[top_right]
             top_right = top_right + 1
+# Finalização do "Merge Sort"
 
 # "Insertion Sort":
 def insertion_sort(lista):
@@ -77,6 +79,11 @@ def insertion_sort(lista):
             lista[j+1] = lista[j]      # desloca o elemento maior uma posição à direita
             j = j - 1                  # avança para o próximo elemento à esquerda
         lista[j+1] = chave             # insere a chave na posição correta
+
+# Complexidade de tempo O(nˆ2)
+# Complexidade de espaço O(n)
+
+# Finalização do "Insertion Sort"
 
 # "Selection Sort":
 def selection_sort(lista):
@@ -96,6 +103,8 @@ def selection_sort(lista):
             aux = lista[j]
             lista[j] = lista[min_index]
             lista[min_index] = aux
+# Finalização do "Selection Sort"
+
 # 1 + (n-1)*[5 + X] = 1 + 5*(n-1) + X*(n-1)
 # Complexidade de tempo O(nˆ2)
 # Complexidade de espaço O(n)
