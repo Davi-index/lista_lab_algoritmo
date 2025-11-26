@@ -105,6 +105,10 @@ def selection_sort(lista):
             lista[min_index] = aux
 # Finalização do "Selection Sort"
 
+# "Bubble Sort":
+def bubble_sort(lista):
+    n = len (lista)
+
 # 1 + (n-1)*[5 + X] = 1 + 5*(n-1) + X*(n-1)
 # Complexidade de tempo O(nˆ2)
 # Complexidade de espaço O(n)
