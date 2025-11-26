@@ -108,6 +108,14 @@ def selection_sort(lista):
 # "Bubble Sort":
 def bubble_sort(lista):
     n = len (lista)
+    for j in range(n-1):
+        trocou = False
+        for i in range(n-1-j):
+            if lista[i] > lista[i+1]:
+                lista[i], lista[i+1] = lista[i+1], lista[i]
+                trocou = True
+        if not trocou:
+            break
 
 # 1 + (n-1)*[5 + X] = 1 + 5*(n-1) + X*(n-1)
 # Complexidade de tempo O(nˆ2)
