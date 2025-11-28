@@ -32,6 +32,7 @@ O conteúdo está organizado em pastas para facilitar a navegação:
 
 Os projetos foram desenvolvidos principalmente na linguagem **C**. A seguir, as principais tecnologias e ferramentas utilizadas:
 
+![Python](https://img.shields.io/badge/Python-00599C?style=for-the-badge&logo=Python&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![GCC](https://img.shields.io/badge/GCC-4EAA25?style=for-the-badge&logo=gnu-compiler-collection&logoColor=white)
